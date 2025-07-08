@@ -51,7 +51,7 @@
   background: #ffdcff;
 }
 
-#peepers {
+#left-peeper, #right-peeper {
   position: absolute;
   width: 5vmin;
   height: 5vmin;
@@ -59,18 +59,29 @@
   border-radius: 50%;
   top: 13vmin;
   left: 5vmin;
-  box-shadow: 14vmin 0 black;
+}
+#left-peeper {
+  left: 5vmin;
 }
 
-#peepers:before{
-  content: "";
+#right-peeper {
+  left: 19vmin;
+}
+
+#lpupil {
   position: absolute;
   background: white;
   width: 2.5vmin;
   height: 2.5vmin;
   border-radius: 50%;
-  left: 2min;
-  box-shadow: 14vmin 0 white;
+}
+
+#rpupil {
+  position: absolute;
+  background: white;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  border-radius: 50%;
 }
 
 #snoot {
