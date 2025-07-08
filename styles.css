@@ -106,6 +106,6 @@
   transform: rotate(-45deg)
 }
 #right-waggler{
-  left: 9vmin;
+  left: 18vmin;
   transform: rotate(45deg)
 }
