@@ -5,8 +5,8 @@
 
 #base {
   background: white;
-  height: 50vh;
-  width: 50vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,8 +14,8 @@
 }
 
 #background {
-  width: 35vmin;
-  height: 35vmin;
+  width: 70vmin;
+  height: 70vmin;
   background: #e8e0ff;
   border-radius: 50%;
   display: flex;
@@ -26,9 +26,9 @@
 
 #spookster {
   position: relative;
-  border: 0.25vmin solid black;
-  width: 15vmin;
-  height: 15vmin;
+  border: 0.5vmin solid black;
+  width: 30vmin;
+  height: 30vmin;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   border-bottom: 0;
@@ -38,60 +38,61 @@
 
 #feets {
   display: flex;
-  width: 15vmin;
+  width: 30vmin;
 }
 
 #feet {
-  width: 3.75vmin;
-  height: 3vmin;
-  border: 0.25vmin solid black;
+  width: 7.5vmin;
+  height: 6vmin;
+  border: 0.5vmin solid black;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-top: 0;
   background: #ffdcff;
 }
 
-#peepers, #peepers2 {
+#peepers {
   position: absolute;
-  width: 2.5vmin;
-  height: 2.5vmin;
+  width: 5vmin;
+  height: 5vmin;
   background: #000;
   border-radius: 50%;
-  top: 6.5vmin;
-  left: 2.5vmin;
-  box-shadow: 7vmin 0 black;
+  top: 13vmin;
+  left: 5vmin;
+  box-shadow: 14vmin 0 black;
 }
 
-#peepers2:before{
+#peepers:before{
   content: "";
   position: absolute;
   background: white;
-  width: 1vmin;
-  height: 1vmin;
+  width: 2.5vmin;
+  height: 2.5vmin;
   border-radius: 50%;
-  left: 1min;
-  box-shadow: 7vmin 0 white;
+  left: 2min;
+  box-shadow: 14vmin 0 white;
 }
 
 #snoot {
   position: absolute;
-  width: 2vmin;
-  height: 1vmin;
-  border: 0.25vmin solid black;
+  width: 4vmin;
+  height: 2vmin;
+  border: 0.5vmin solid black;
   border-bottom-left-radius: 2vmin;
   border-bottom-right-radius: 2vmin;
   border-top: 0;
-  top: 8vmin;
-  left: 6vmin;
+  top: 16vmin;
+  left: 12vmin;
 }
 
 /* Both wagglers (hands) have */
 /* much in common */
 #left-waggler, #right-waggler {
   position: absolute;
-  width: 2vmin;
-  height: 2vmin;
-  border: 0.25vmin solid black;
+  width: 4vmin;
+  height: 4vmin;
+  top: 22vmin;
+  border: 0.5vmin solid black;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-top: 0;
@@ -101,12 +102,10 @@
 /* 1. locations and */
 /* 2. orientations */
 #left-waggler {
-  top: 11vmin;
-  left: 3vmin;
+  left: 6vmin;
   transform: rotate(-45deg)
 }
 #right-waggler{
-  top: 11vmin;
   left: 9vmin;
   transform: rotate(45deg)
 }
